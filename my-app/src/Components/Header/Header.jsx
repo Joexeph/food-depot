@@ -10,7 +10,6 @@ const Header = () => {
                 delectable array of dishes crafted with the finest
                  ingredient with love from Oja</p>
                  <button>View Menu</button>
-                 
         </div>
     </div>
   )
