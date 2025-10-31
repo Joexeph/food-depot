@@ -1,16 +1,47 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🍔 FoodDel — Food Ordering App
+FoodDel is a modern, responsive food ordering web app built with **React**. It allows users to browse meals, view details, add items to their cart, and place orders with a simple and intuitive interface.
 
-Currently, two official plugins are available:
+🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+✅ **Beautiful UI** — clean and responsive design for all devices
+✅ **Dynamic Menu** — browse dishes, categories, and details easily
+✅ **Cart Functionality** — add, remove, and update items in real-time
+✅ **Order Summary** — view total items, price, and delivery information
+✅ **Reusable Components** — built with modular React components
+✅ **API Integration** — fetch meals and order data dynamically
+✅ **State Management** — powered by React Hooks / Context API
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
 
-## Expanding the ESLint configuration
+| Tool                    | Purpose                               |
+| ----------------------- | ------------------------------------- |
+| **React.js**            | Frontend library                      |
+| **Vite**                | Fast build tool for modern React apps |
+| **React Router DOM**    | Page navigation                       |
+| **Context API / Redux** | State management                      |
+| **CSS / Tailwind CSS**  | Styling and responsive layout         |
+| **JSON Server / API**   | Simulated backend for food data       |
+| **Axios / Fetch**       | API calls                             |
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🧩 Folder Structure
+
+```
+fooddel/
+├── public/
+├── src/
+│   ├── assets/         # Images, icons
+│   ├── components/     # Reusable UI components
+│   ├── pages/          # Main pages (Home, Cart, Checkout)
+│   ├── context/        # Global state management
+│   ├── App.jsx         # Root component
+│   ├── main.jsx        # Entry file
+│   └── styles/         # Global styles
+├── package.json
+└── README.md
+```
+
